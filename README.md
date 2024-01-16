@@ -26,6 +26,15 @@ LODPlacer is a Unity editor script that simplifies the process of setting up Lev
 1. Clone or download this repository.
 2. Copy the `LODPlacer.cs` script into your Unity project's `Editor` folder.
 
+## Assets Used
+
+The LODPlacer script relies on the "LowPoly Cartoon Props Mobile Free" package available on the Unity Asset Store for testing and demonstration purposes.
+
+- **Asset Name:** LowPoly Cartoon Props Mobile Free
+- **Publisher:** [Unity Asset Store](https://assetstore.unity.com/packages/3d/props/environment-track-lowpoly-cartoon-props-mobile-free-211494)
+
+To use this script with the same assets, please download and import the "LowPoly Cartoon Props Mobile Free" package from the Unity Asset Store into your Unity project.
+
 ## Screenshots
 
 ![LODPlacer Wizard](Screenshots/LODPlacer_Wizard.png)
