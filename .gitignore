@@ -1,34 +1,34 @@
 # This .gitignore file should be placed at the root of your Unity project directory
 
 # Exclude all files and directories
-*
+/*
 
 # Include Unity project folders
-!/[Aa]ssets/
-!/[Pp]rojectSettings/
-!/[Pp]ackages/
+!/Assets/
+!/ProjectSettings/
+!/Packages/
 
 # Exclude Unity-generated meta files
-[Aa]ssets/**/*.meta
-[Pp]rojectSettings/**/*.meta
-[Pp]ackages/**/*.meta
+/Assets/**/*.meta
+/ProjectSettings/**/*.meta
+/Packages/**/*.meta
 
 # Exclude other Unity-generated files and directories
-[Ll]ibrary/
-[Tt]emp/
-[Oo]bj/
-[Bb]uild/
-[Bb]uilds/
-[Ll]ogs/
-[Uu]ser[Ss]ettings/
-[Mm]emoryCaptures/
-[Rr]ecordings/
-[Aa]ssets/AssetStoreTools*
-[Aa]ssets/Plugins/Editor/JetBrains*
-.vs/
-.gradle/
-ExportedObj/
-.consulo/
+/Library/
+/Temp/
+/Obj/
+/Build/
+/Builds/
+/Logs/
+/UserSettings/
+/MemoryCaptures/
+/Recordings/
+/Assets/AssetStoreTools*
+/Assets/Plugins/Editor/JetBrains*
+/.vs/
+/.gradle/
+/ExportedObj/
+/.consulo/
 *.csproj
 *.unityproj
 *.sln
@@ -49,6 +49,6 @@ sysinfo.txt
 *.unitypackage
 *.app
 crashlytics-build.properties
-[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
-[Aa]ssets/[Ss]treamingAssets/aa.meta
-[Aa]ssets/[Ss]treamingAssets/aa/*
+/Assets/AddressableAssetsData/*/*.bin*
+/Assets/StreamingAssets/aa.meta
+/Assets/StreamingAssets/aa/*
