@@ -7,6 +7,7 @@
 !/Assets/
 !/ProjectSettings/
 !/Packages/
+!/Release/
 
 # Exclude Unity-generated meta files
 /Assets/**/*.meta
